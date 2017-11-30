@@ -1,0 +1,30 @@
+%MSG ENDTRIAL|Thank you.
+4|Is this your FIRST entry of the day? %TYPE popup|Yes %NEXT 6|No %NEXT 10
+6|How many HOURS did you SLEEP last night? %TYPE popup|a) more than 8 hours|b) 7-8 hours|c) 5-6 hours|d) 3-4 hours|e) 0-2 hours
+8|Rate the overall QUALITY of your SLEEP. %TYPE popup|5 very poor|4 poor|3 fair|2 good|1 very good
+10|During the past 3 hours, how INTENSE was your pain? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+20|During the past 3 hours, how UNPLEASANT was your pain? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+50|During the past 3 hours, how SAD were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+60|During the past 3 hours, how IRRITATED were you? %TYPE popup|8 extremely %NEXT 1080|7 %NEXT 1080|6 very much %NEXT 1080|5 %NEXT 1080|4 much %NEXT 1080|3 %NEXT 1080|2 somewhat %NEXT 1080|1|0 not at all
+80|During the past 3 hours, how ON EDGE were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+110|During the past 3 hours, how DISCOURAGED were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+120|During the past 3 hours, how ANGRY were you? %TYPE popup|8 extremely %NEXT 1140|7 %NEXT 1140|6 very much %NEXT 1140|5 %NEXT 1140|4 much %NEXT 1140|3 %NEXT 1140|2 somewhat %NEXT 1140|1|0 not at all
+140|During the past 3 hours, how UNEASY were you? %TYPE popup|8 extremely %NEXT 1210|7 %NEXT 1210|6 very much %NEXT 1210|5 %NEXT 1210|4 much %NEXT 1210|3 %NEXT 1210|2 somewhat %NEXT 1210|1 %NEXT 1210|0 not at all %NEXT 1210
+1080|During the past 3 hours, how ON EDGE were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1110|During the past 3 hours, how DISCOURAGED were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1120|During the past 3 hours, how ANGRY were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1140|During the past 3 hours, how UNEASY were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1150|When I felt irritated, annoyed or angry during the past 3 hours, I SPOKE or SHOUTED about my anger or annoyance. %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1160|When I felt irritated, annoyed or angry during the past 3 hours, I did PHYSICAL THINGS like gesture, pound the table, slam doors, throw things, etc. %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1170|When I felt irritated, annoyed or angry during the past 3 hours, I KEPT my anger or annoyance TO MYSELF. %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1180|When I felt irritated, annoyed or angry during the past 3 hours, I HID from others how angry or annoyed I was. %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1210|During the past 3 hours, how PHYSICALLY ACTIVE were you? %TYPE popup|8 extremely|7|6 very much|5|4 much|3|2 somewhat|1|0 not at all
+1220|To what degree did your pain interfere with you being PHYSICALLY ACTIVE? %TYPE popup|8 extremely|7|6 much|5|4 some|3|2 a little|1|0 not at all
+1230|During the past 3 hours, how much did you REST (sit, lie down) because of your pain? %TYPE popup|8 the whole time|7|6 much|5|4 some|3|2 a little|1|0 not at all
+1310|During the past 3 hours, did you take any kind of MEDICATION for your pain? %TYPE popup|Yes|No
+1410|When you felt pain during the past 3 hours, to what degree did you feel AFRAID that the PAIN MAY GET WORSE? %TYPE popup|8 extremely|7|6 very|5|4 somewhat|3|2 a little|1|0 not at all
+1420|When you felt pain during the past 3 hours, to what degree did you keep thinking about HOW MUCH IT HURTS? %TYPE popup|8 extremely|7|6 very|5|4 somewhat|3|2 a little|1|0 not at all
+1430|When you felt pain during the past 3 hours, to what degree did you feel that the PAIN WAS AWFUL AND OVERWHELMING? %TYPE popup|8 extremely|7|6 very|5|4 somewhat|3|2 a little|1|0 not at all
+1510|SINCE YOUR LAST DIARY ENTRY, how many minutes did you engage in walking briskly/running for exercise? %TYPE popup|0 none|1 1-10min|2 11-20 min|3 21-30min|4 31-40min|5 41-50min|6 51-60min|7 61-70min|8 71-80min
+1520|If you went to the gym to exercise SINCE YOUR LAST DIARY ENTRY, how many minutes did you exercise? %TYPE popup|0 none|1 1-10min|2 21-30 min|3 21-30min|4 31-40min|5 41-50min|6 51-60min|7 61-70min|8 71-80min
+1600|Questionnaire completed. %TYPE button|Ok
