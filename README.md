@@ -9,6 +9,14 @@ Questions and palm programming in readable word document: opioidPDA_questions an
 Programming text file: opioidPDA_questions.txt
 How to read palm output: palm_how to read output.pdf
 
+First attempt coding in PyCharm using pandas: final dorlow2 4C.py
+Second attempt at coding in Jupyter Notebook using pandas: FinalProject452.ipynb
+Third attempt at coding PyCharm using pure python: final_redo dorlow2 4C.py 
+
+Modification of code by Elizabeth Wickes: 452 final dorlow2 4C.py 
+Code modification includes a def replace_resp() function that uses a dictionary to replace string responses with numbers, and an
+additional variable that keeps the input name but changes the extension from .txt to .csv
+Supplemental documentas created by this file: sample_palm_dataTEMP.csv, sample_palm_data.csv
 
 Goals
 a.	Extract the participant ID, located in column 7
