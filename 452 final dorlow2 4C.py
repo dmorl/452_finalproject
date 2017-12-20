@@ -29,8 +29,10 @@ data_fixed_dates = []
 
 # split out the date and time
 for row in data:
-	date = row[0][:8]
-	time = row[0][8:]
+	date_working = row[0][:8]
+	date = date_working[0:4] + "-" + date_working[4:6] + "-" + date_working[6:9]
+	time_working = row[0][8:]
+	time = time_working[0:2] + ":" + time_working[2:4] + ":" + time_working[4:6]
 	data_fixed_dates.append([date, time] + row[1:])
 
 unique_dates = list(set([r[0] for r in data_fixed_dates]))
@@ -74,7 +76,7 @@ for date in data_dict.keys():
 	responsecounter = 1
 	for time in data_dict[date].keys():
 		row = [date, time, responsecounter]
-		datachunk = data_dict[date][time]	
+		datachunk = data_dict[date][time]
 		for q in unique_qnums: #looping like this mainians a consistant order
 			if q in datachunk:
 				row.append(datachunk[q])
