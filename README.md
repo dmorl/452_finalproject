@@ -24,8 +24,9 @@ Third attempt at coding PyCharm using pure python: final_redo dorlow2 4C.py
 
 Modification of code by Elizabeth Wickes: 452 final dorlow2 4C.py 
 
-Code modification includes a def replace_resp() function that uses a dictionary to replace string responses with numbers, and an
-additional variable that keeps the input name but changes the extension from .txt to .csv
+Code modification includes a def replace_resp() function that uses a dictionary to replace string responses with numbers, modification
+of the date and time variables to display as a standard format (YYYY/MM/DD and HH:MM:SS), and addition of two variables that keep
+the original text file name but change the extension from .txt to .csv
 
 Supplemental documents created by this file: sample_palm_dataTEMP.csv, sample_palm_data.csv
 
