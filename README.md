@@ -1,11 +1,10 @@
 # 452_finalproject
 A project transforming PDA output into an entry-ready dataset.
 
+Authors: Daria Orlowska and Elizabeth Wickes (https://github.com/elliewix)
 
 **Documents**
-
-Python code: final dorlow2 4C.py
-
+--
 Sample data: sample_palm_data.txt
 
 Questions and palm programming in readable word document: opioidPDA_questions and settings.docx
@@ -13,7 +12,7 @@ Questions and palm programming in readable word document: opioidPDA_questions an
 Programming text file: opioidPDA_questions.txt
 
 How to read palm output: palm_how to read output.pdf
-
+__________________
 
 First attempt coding in PyCharm using pandas: final dorlow2 4C.py
 
@@ -21,8 +20,9 @@ Second attempt at coding in Jupyter Notebook using pandas: FinalProject452.ipynb
 
 Third attempt at coding PyCharm using pure python: final_redo dorlow2 4C.py 
 
+Modification of code created by Elizabeth Wickes (@elliewix): 452 final dorlow2 4C.py 
 
-Modification of code by Elizabeth Wickes: 452 final dorlow2 4C.py 
+__________________
 
 Code modification includes a def replace_resp() function that uses a dictionary to replace string responses with numbers, modification
 of the date and time variables to display as a standard format (YYYY/MM/DD and HH:MM:SS), and addition of two variables that keep
@@ -33,7 +33,7 @@ Supplemental documents created by this file: sample_palm_dataTEMP.csv, sample_pa
 
 
 **Goals**
-
+--
 a.	Extract the participant ID, located in column 7
 
 b.	Extract the first half of the timestamp in column 1, consisting of YYYYMMDD, in the format MM/DD/YYYY
